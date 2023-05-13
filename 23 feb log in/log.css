@@ -1,0 +1,152 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  /* background-color: black; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(120deg,#2980b9, #8e44ad); */
+  background-image: url(IMG_20190829_100520.JPG);
+  background-repeat: no-repeat;
+  background-attachment: co;
+  background-color: black;
+}
+
+.centre {
+  position: relative;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  /* padding: 20px; */
+  /* margin: 20px 0 0 0 ; */
+  width: 33%;
+  /* height: 530px; */
+  /* background-image: url(IMG_20190829_100520.JPG); */
+  background-color: white;
+  /* background-size: cover; */
+  border-radius: 20px;
+  padding: 0 0 15px 0;
+}
+
+.centre h1 {
+  position: relative;
+  padding: 40px;
+  top: -30px;
+  /* margin: 20px; */
+  text-transform: capitalize;
+  color: black;
+  /* margin: 25px; */
+  text-align: center;
+  justify-content: center;
+  /* margin: 20px; */
+  border-bottom: 1px solid #adadad;
+}
+
+.title_name {
+  padding: 0px 95px 0px 95px;
+  margin: 20px;
+}
+
+.title_name input {
+  position: relative;
+  /* padding: 20px 15px; */
+  /* border-radius: 15px; */
+  /* left: 10px; */
+  /* width: 20px; */
+  height: 45px;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: black;
+  border: 2px solid red;
+  border-radius: 30px;
+  border-bottom: 2px solid #2691d9;
+}
+
+.title_name label {
+  position: relative;
+  color: #adadad;
+  top: -28px;
+  left: 20px;
+  transition: 0.5s;
+}
+
+/* .title_name placeholder{
+position: relative;
+text-align: center;
+left: 10px;
+} */
+
+.title_name :focus ~ label {
+  position: relative;
+  top: -50px;
+}
+
+.pass a {
+  position: relative;
+  color: #adadad;
+  background-color: white;
+  /* border-radius: 10px; */
+  text-decoration: none;
+  /* padding: 125px; */
+  top: 5px;
+  left: 35%;
+  /* padding: 10px; */
+  /* margin: 10px; */
+  /* text-align: center; */
+}
+.pass a:hover {
+  color: #2691d9;
+}
+
+.button {
+  position: relative;
+  width: 50%;
+  padding: 12px 0 12px 0;
+  left: 25%;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.member {
+  position: relative;
+  color: #adadad;
+  top: 20px;
+  padding: 6px 0px 40px 0px;
+  margin: 6px 27px 0px -5px;
+  left: -10px;
+  text-transform: capitalize;
+}
+
+.member:hover {
+  color: #2691d9;
+  cursor: pointer;
+}
+
+a {
+  position: relative;
+  top: -20px;
+  left: 190px;
+  color: #adadad;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+a:hover {
+  color: #2691d9;
+  text-decoration: underline;
+}
